@@ -233,7 +233,7 @@ Basis:
 {'Fe':'TZP-DKH','Mo':'TZP-DKH','S':'TZP-DKH',\
 'C':'def2-SVP','H':'def2-SVP','O':'def2-SVP','N':'def2-SVP'}
 
-Charge = -3, Spin = 35 for UKS/B3LYP with COSMO eps=4.0
+Charge = -3, Spin = 35 for UKS/B3LYP with sf-X2C Hamiltonian and COSMO eps=4.0
 
 Molecular orbitals: Split-Localized MOs, see MOs_plots
 
