@@ -4,6 +4,8 @@ For details, see arXiv: https://arxiv.org/abs/1809.10307
 
 Some explanations about how the FCIDUMP file is generated:
 
+The DFT calculations and integral transformation were performed with the PYSCF package.
+
 Geometry:
 Fe 10.018000 -7.568000 56.109001
 Fe 12.528000 -8.326000 55.692001
@@ -235,8 +237,8 @@ Basis:
 {'Fe':'TZP-DKH','Mo':'TZP-DKH','S':'TZP-DKH',\
 'C':'def2-SVP','H':'def2-SVP','O':'def2-SVP','N':'def2-SVP'}
 
-Charge = -3, Spin = 35 for UKS/B3LYP with sf-X2C Hamiltonian and COSMO eps=4.0
+Charge = -3, Spin = 35 (PYSCF convention: 2*S) for UKS/B3LYP with sf-X2C Hamiltonian and COSMO eps=4.0
 
-Molecular orbitals: Split-Localized MOs, see MOs_plots
+Molecular orbitals: Split-Localized MOs, see MOs_plots (ordered by Genetic Algorithm implemented in the BLOCK code)
 
 Active space information: CAS(113e,76o) 
