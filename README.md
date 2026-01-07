@@ -248,6 +248,3 @@ Charge = -3, Spin = 35 (PYSCF convention: 2*S) for UKS/B3LYP with sf-X2C Hamilto
 Molecular orbitals: Split-Localized MOs, see MOs_plots (ordered by Genetic Algorithm implemented in the BLOCK code)
 
 Active space information: CAS(113e,76o) 
-
-E[core] = −21021.214012 Hartree
-
